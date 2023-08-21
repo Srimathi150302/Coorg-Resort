@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow+Condensed&family=Boogaloo&family=Cinzel+Decorative:wght@700&family=DM+Sans:opsz,wght@9..40,300&family=Darker+Grotesque:wght@500&family=Lateef&family=Londrina+Solid&family=Nunito&family=Philosopher:wght@700&family=Poppins:wght@600&family=Preahvihear&family=Rammetto+One&family=Rancho&family=Rhodium+Libre&family=Tai+Heritage+Pro&family=Tenali+Ramakrishna&family=Tilt+Prism&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow+Condensed&family=DM+Sans:opsz,wght@9..40,300&family=Darker+Grotesque:wght@500&family=Londrina+Solid&family=Nunito&family=Philosopher:wght@700&family=Poppins:wght@600&family=Preahvihear&family=Rammetto+One&family=Rhodium+Libre&family=Tenali+Ramakrishna&family=Tilt+Prism&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow+Condensed&family=Cinzel+Decorative:wght@700&family=DM+Sans:opsz,wght@9..40,300&family=Darker+Grotesque:wght@500&family=Londrina+Solid&family=Nunito&family=Philosopher:wght@700&family=Poppins:wght@600&family=Preahvihear&family=Rammetto+One&family=Rhodium+Libre&family=Tenali+Ramakrishna&family=Tilt+Prism&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow+Condensed&family=Boogaloo&family=Cinzel+Decorative:wght@700&family=DM+Sans:opsz,wght@9..40,300&family=Darker+Grotesque:wght@500&family=Londrina+Solid&family=Nunito&family=Philosopher:wght@700&family=Poppins:wght@600&family=Preahvihear&family=Rammetto+One&family=Rancho&family=Rhodium+Libre&family=Tenali+Ramakrishna&family=Tilt+Prism&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow+Condensed&family=Boogaloo&family=Cinzel+Decorative:wght@700&family=DM+Sans:opsz,wght@9..40,300&family=Darker+Grotesque:wght@500&family=Lateef&family=Londrina+Solid&family=Metrophobic&family=Nunito&family=Philosopher:wght@700&family=Poppins:wght@600&family=Preahvihear&family=Rammetto+One&family=Rancho&family=Rhodium+Libre&family=Tai+Heritage+Pro&family=Tenali+Ramakrishna&family=Tilt+Prism&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Architects+Daughter&family=Barlow+Condensed&family=Boogaloo&family=Cinzel+Decorative:wght@700&family=DM+Sans:opsz,wght@9..40,300&family=Darker+Grotesque:wght@500&family=Lateef&family=Londrina+Solid&family=Metrophobic&family=Nunito&family=Philosopher:wght@700&family=Poppins:wght@600&family=Preahvihear&family=Rakkas&family=Rammetto+One&family=Rancho&family=Rhodium+Libre&family=Tai+Heritage+Pro&family=Tenali+Ramakrishna&family=Tilt+Prism&family=Zeyada&display=swap');
+*{
+    margin:0px;
+}
+
+/* .carousel-item img{
+    filter: blur(1px);
+} */
+nav{
+    position: absolute;
+    top:0px;
+    padding: 10px;
+    background-color:rgba(211, 210, 210, 0.3);
+    backdrop-filter: blur(9px);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: 'Lateef', serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px rgb(245, 242, 242);
+    margin: 0px 10px 0px 55px;
+}
+
+nav a:hover{
+    color:white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.theme h1{
+    position: absolute;
+    top:150px;
+    left:470px;
+    /* color: white; */
+    font-family: 'Rammetto One', cursive;
+}
+.theme h4{
+    position: absolute;
+    top:210px;
+    left:530px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.theme p{
+    position: absolute;
+    top:250px;
+    left:530px;
+    text-decoration: overline;
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+}
+
+.page1{
+    height: 450px;
+    width: 100%;
+    background-color:azure;
+    display: flex;
+}
+.sub1{
+    width: 23%;
+    margin: 100px 0px 0px 80px;
+}
+.sub2{
+    width: 30%;
+    margin:80px 50px 0px 0px;
+}
+.sub3{
+    width: 30%;
+    margin: 20px;
+    margin:80px 50px 0px 0px;
+}
+.page1 h1{
+    position: static;
+    font-family: 'Rammetto One', cursive;
+}
+.page1 h4{
+    position: static;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.page1 p{
+    position: static;
+    text-align: justify;
+    text-decoration: none;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px;
+}
+
+.page1 .sub3 img{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 30px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.highlights{
+    height: 900px;
+    background-color:antiquewhite;
+    position: static;
+}
+
+.highlights h2{
+    position: static;
+    font-family: 'Rakkas', cursive;
+    font-weight:bolder;
+    font-size: 35px;
+    padding:50px 0px 30px 480px;
+}
+.high{
+    display: flex;
+}
+.high-text{
+    width: 50%;
+}
+
+.high-text h4{
+    font-family: 'Rakkas', cursive;
+    font-size: 25px;
+    padding: 30px 0px 0px 50px;
+}
+.high-text p{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 30px 60px 30px 50px;
+}
+.high-image img{
+    height: 300px;
+    width: 500px;
+    margin: 20px 0px 0px 40px;
+    border-radius: 10px;
+}
+.high2{
+    display: flex;
+}
+.high-image2{
+    width: 50%;
+}
+.high-image2 img{
+    height: 330px;
+    width: 550px;
+    margin: 50px 0px 0px 50px;
+    border-radius: 10px;
+}
+
+.high-text2{
+    width: 50%;
+}
+
+.high-text2 h4{
+    font-family: 'Rakkas', cursive;
+    font-size: 25px;
+    padding: 50px 0px 0px 50px;
+}
+.high-text2 p{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 30px 80px 30px 50px;
+}
+
+.pool{
+    height: 630px;
+    width: 100%;
+    background-color: rgba(57, 235, 255, 0.249);
+    /* background-image: url('pool.jpg');
+    background-size: cover; */
+}
+.pool-text h2{
+    font-family: 'Rakkas', cursive;
+    font-weight:bolder;
+    font-size: 35px;
+    padding:50px 0px 30px 490px;
+}
+
+.pool-img{
+    background-image: url('r8.jpg');
+    background-size: cover;
+    height: 420px;
+    width: 81%;
+    margin: 0px 0px 0px 130px;
+    filter: brightness(0.9);
+}
+.pool-img p{
+    padding: 40px 70px 0px 70px;
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.something1{
+    height: 350px;
+    background-color: rgb(226,231,218);
+    display: flex;
+}
+.something2{
+    height: 350px;
+    background-color: rgb(226,231,218);
+    display: flex;
+}
+
+.coorg{
+    height: 570px;
+    width: 100%;
+    background-image: url('r10.jpg');
+    background-size: cover;
+}
+.coorg-text h2{
+    font-family: 'Rakkas', cursive;
+    color:rgb(87, 124, 13);
+    padding: 100px 0px 50px 100px;
+}
+
+.coorg-text p{
+    font-family: 'Metrophobic', sans-serif;
+    padding: 0px 500px 50px 100px;
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(9, 9, 9);
+}
+
+.something1 img{
+    height: 270px;
+    margin: 20px 50px 20px 70px;
+}
+
+.some-text h2{
+    font-family: 'Rakkas', cursive;
+    color:rgb(87, 124, 13);
+    padding: 50px 0px 0px 170px;
+}
+.some-text p{
+    font-family: 'Metrophobic', sans-serif;
+    padding: 10px 90px 0px 0px;
+    text-align: justify;
+    font-size: 17px;
+}
+.something2 img{
+    height: 250px;
+    margin: 10px 70px 10px 50px;
+}
+.some-text2 h2{
+    font-family: 'Rakkas', cursive;
+    color:rgb(87, 124, 13);
+    padding: 10px 10px 10px 200px;
+}
+.some-text2 p{
+    font-family: 'Metrophobic', sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    padding: 10px 70px 10px 90px;
+}
+
+footer{
+    height: 200px;
+    background-color: rgb(97, 22, 22);
+    display: flex;
+}
+.icons img{
+    height: 35px;
+    width: 35px;
+    margin: 80px 10px 10px 20px;
+}
+.address{
+    padding: 25px 0px 0px 200px;
+}
+.address h3{
+    color: whitesmoke;
+    font-family: 'Rakkas', cursive;
+}
+.address p{
+    color: whitesmoke;
+    font-family: 'Metrophobic', sans-serif;
+}
+.final-img img{
+    height: 170px;
+    width: 280px;
+    margin: 5px 0px 0px 180px;
+}
